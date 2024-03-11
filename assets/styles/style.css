@@ -1,0 +1,47 @@
+body { 
+  background-color: aliceblue; /* Mengatur warna background */
+  background-size: 900px; /* Mengatur ukuran background */
+  background-repeat: no-repeat; /* Mencegah pengulangan gambar background */
+}
+
+.container {
+  display: flex; /* Menggunakan flexbox untuk penataan konten */
+  justify-content: center; /* Menengahkan konten secara horizontal */
+  align-items: center; /* Menengahkan konten secara vertikal */
+  height: 100vh; /* Menetapkan tinggi container sama dengan tinggi viewport */
+}
+
+.card {
+  background-image: url('https://i.pinimg.com/564x/08/6e/61/086e612f0f58288de5c1cf5f43dc2713.jpg'); /* Memberikan gambar background card */
+  display: flex; /* Mengatur penataan konten */
+  justify-content: center; /* Menengahkan konten secara horizontal */
+  align-items: center; /* Menengahkan konten secara vertikal */
+  height: 500px; /* Mengatur tinggi card */
+  width: 750px; /* Mengatur lebar card */
+  border-radius: 8px; /* Mengatur sudut pada card */
+  box-shadow: 15px 10px 5px rgba(0,0,0,0.1); /* Memberikan bayangan pada card */
+}
+
+img {
+  height: 475px; /* Mengatur ukuran gambar */
+  width: fit-content;
+  border: 2px solid grey; /*Menambahkan border abu abu dengan ketebalan 2 piksel*/
+}
+
+text {
+  font-family: 'roboto slab', serif; /* Mengatur jenis font pada text */
+  color: black; /* Mengatur warna text */
+}
+
+h1 {
+  font-weight: 850; /* Mengatur ketebalan text */
+  margin-right: 10px; /* Menambahkan margin pada sisi kanan */
+  margin-left: 5px; /* Menambahkan margin pada sisi kiri */
+}
+
+p {
+  font-weight: 600; /* Mengatur ketebalan text */
+  text-align: justify; /* Membuat text terlihat rata */
+  margin-right: 10px; /* Menambahkan margin pada sisi kanan */
+  margin-left: 5px; /* Menambahkan margin pada sisi kiri */
+}
